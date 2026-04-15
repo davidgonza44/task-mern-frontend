@@ -23,7 +23,7 @@ export default defineConfig({
     },
   server: {
     proxy: {
-      '/api': 'http://localhost:8000',
+      '/api': 'https://taskmernbackend-2e3b101e.b4a.run/',
     },
   }
 })
