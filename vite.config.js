@@ -21,9 +21,4 @@ export default defineConfig({
           reporter: ['text', 'html']
         }
     },
-  server: {
-    proxy: {
-      '/api': 'https://taskmernbackend-2e3b101e.b4a.run/',
-    },
-  }
 })
