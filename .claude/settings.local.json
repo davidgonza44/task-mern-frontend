@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Davidgonza/OneDrive/Desktop/Task-Mern/backend/controllers/**)",
+      "Read(//c/Users/Davidgonza/OneDrive/Desktop/Task-Mern/backend/routes/**)",
+      "Read(//c/Users/Davidgonza/OneDrive/Desktop/Task-Mern/backend/models/**)",
+      "Read(//c/Users/Davidgonza/OneDrive/Desktop/Task-Mern/backend/middleware/**)"
+    ]
+  }
+}
