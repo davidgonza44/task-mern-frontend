@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = '/api/users/'
+const API_URL = 'https://taskmernbackend-2e3b101e.b4a.run/api/users/'
 
 // Register user
 
