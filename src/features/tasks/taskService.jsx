@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'https://taskmernbackend-gk5zueq3.b4a.run/api/tasks/'
+const API_URL = import.meta.env.VITE_API_URL + '/api/tasks/'
 
 const createTask = async (taskData, token) => {  
     const response = await axios.post(API_URL, taskData, {
